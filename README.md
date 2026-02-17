@@ -1,5 +1,5 @@
 # ⚡ ASH-Grid AI  
-## Autonomous Self-Healing Transformer Network for Smart Grid Resilience 🤖🌍
+## Autonomous Self-Healing Transformer Network for Smart Grid Resilience 🤖
 
 ASH-Grid AI is a next-generation **AI-powered Smart Grid Intelligence Platform** designed to move beyond monitoring and prediction — towards **autonomous prevention, adaptation, and self-optimization** of transformer networks in real time.
 
@@ -7,7 +7,7 @@ Unlike traditional systems that only raise alerts after damage begins, ASH-Grid 
 
 ---
 
-## 🚨 Problem Statement
+##  Problem Statement
 
 Modern power grids face increasing stress due to:
 
@@ -22,21 +22,21 @@ ASH-Grid AI introduces a proactive, self-healing approach for future-ready urban
 
 ---
 
-## 💡 Solution Overview
+##  Solution Overview
 
 ASH-Grid AI acts as an **AI Copilot for Grid Operators**, combining:
 
->Real-time transformer health intelligence  
->Load forecasting and anomaly detection  
->Self-healing simulation and optimization actions  
-> Infrastructure-aware resilience prioritization  
->Grid-wide stability scoring for smart cities  
+✅ Real-time transformer health intelligence  
+✅ Load forecasting and anomaly detection  
+✅ Self-healing simulation and optimization actions  
+✅ Infrastructure-aware resilience prioritization  
+✅ Grid-wide stability scoring for smart cities  
 
 ---
 
-## 🔥 Key Features
+##  Key Features
 
-### 🧠 Transformer Stress DNA Profiling  
+###  Transformer Stress DNA Profiling  
 Each transformer is modeled with a unique **Stress DNA Profile**, calculated from:
 
 - Thermal stress accumulation  
@@ -47,7 +47,7 @@ Each transformer is modeled with a unique **Stress DNA Profile**, calculated fro
 
 ---
 
-### ⚡ Autonomous Self-Healing Recommendation Engine  
+###  Autonomous Self-Healing Recommendation Engine  
 ASH-Grid does not just alert — it simulates corrective outcomes:
 
 - Load reduction strategies  
@@ -61,7 +61,7 @@ Example Output:
 
 ---
 
-### 🌍 Community-Aware Grid Protection  
+###  Community-Aware Grid Protection  
 The system prioritizes power reliability for critical zones:
 
 - Hospitals  
@@ -72,7 +72,7 @@ This enables humanitarian, infrastructure-first AI decision making.
 
 ---
 
-### 🌡 Climate & Seasonal Overload Forecasting  
+###  Climate & Seasonal Overload Forecasting  
 ASH-Grid predicts overload risks during:
 
 - Heatwaves  
@@ -81,7 +81,7 @@ ASH-Grid predicts overload risks during:
 
 ---
 
-### 📊 Transformer Life Extension + Cost Savings  
+### Transformer Life Extension + Cost Savings  
 The platform estimates:
 
 - Current expected transformer life  
@@ -90,7 +90,7 @@ The platform estimates:
 
 ---
 
-### 🏙 Smart City Grid Resilience Score  
+###  Smart City Grid Resilience Score  
 ASH-Grid provides a city-level rating based on:
 
 - Infrastructure stability  
@@ -104,7 +104,7 @@ Example:
 
 ---
 
-### 📌 AI Decision Confidence & Uncertainty Indicators  
+###  AI Decision Confidence & Uncertainty Indicators  
 Every prediction includes:
 
 - Confidence percentage  
@@ -115,7 +115,7 @@ Making the platform research-grade and trustworthy.
 
 ---
 
-## 📸 Application Preview
+##  Application Preview
 
 ### Control Center Dashboard  
 Real-time monitoring of transformer nodes, alerts, and optimization status.
@@ -133,7 +133,7 @@ Stress DNA profile and failure prevention insights for each transformer.
 
 ---
 
-## 🛠 Technology Stack
+##  Technology Stack
 
 - **React + TypeScript** — Frontend dashboard system  
 - **Vite Framework** — High-performance build setup  
