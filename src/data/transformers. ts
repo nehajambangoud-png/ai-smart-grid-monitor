@@ -1,1 +1,69 @@
+import { Transformer } from '../types';
 
+export const transformersData: Transformer[] = [
+  {
+    id: "TR-2045-A",
+    name: "North District Substation",
+    latitude: 34.0522,
+    longitude: -118.2437,
+    efficiency: 98.5,
+    power_output: 12500,
+    load_percentage: 45,
+    oil_temperature: 42.5,
+    input_voltage: 220,
+    output_voltage: 33,
+    status: "Healthy"
+  },
+  {
+    id: "TR-2045-B",
+    name: "Industrial Sector Hub",
+    latitude: 34.0407,
+    longitude: -118.2468,
+    efficiency: 89.2,
+    power_output: 24000,
+    load_percentage: 88,
+    oil_temperature: 78.4,
+    input_voltage: 220,
+    output_voltage: 66,
+    status: "Warning"
+  },
+  {
+    id: "TR-2045-C",
+    name: "West Harbor Station",
+    latitude: 34.0355,
+    longitude: -118.2700,
+    efficiency: 76.4,
+    power_output: 8500,
+    load_percentage: 94,
+    oil_temperature: 92.1,
+    input_voltage: 110,
+    output_voltage: 11,
+    status: "Critical"
+  },
+  {
+    id: "TR-2045-D",
+    name: "Downtown Grid Node",
+    latitude: 34.0488,
+    longitude: -118.2518,
+    efficiency: 99.1,
+    power_output: 15600,
+    load_percentage: 62,
+    oil_temperature: 55.2,
+    input_voltage: 110,
+    output_voltage: 33,
+    status: "Healthy"
+  },
+  {
+    id: "TR-2045-E",
+    name: "Eastside Residential Unit",
+    latitude: 34.0300,
+    longitude: -118.2200,
+    efficiency: 97.8,
+    power_output: 4200,
+    load_percentage: 35,
+    oil_temperature: 38.6,
+    input_voltage: 33,
+    output_voltage: 11,
+    status: "Healthy"
+  }
+];
