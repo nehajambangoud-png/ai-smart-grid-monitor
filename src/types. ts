@@ -1,1 +1,37 @@
+import React from 'react';
 
+export interface NavItem {
+  label: string;
+  path: string;
+  icon: React.ReactNode;
+}
+
+export interface MetricCardProps {
+  title: string;
+  value: string;
+  change: string;
+  trend: 'up' | 'down' | 'neutral';
+  icon: React.ReactNode;
+}
+
+export interface ReportItem {
+  id: string;
+  title: string;
+  date: string;
+  status: 'Complete' | 'Pending' | 'Failed';
+  type: string;
+}
+
+export interface Transformer {
+  id: string;
+  name: string;
+  latitude: number;
+  longitude: number;
+  efficiency: number; // percentage
+  power_output: number; // kW
+  load_percentage: number; // %
+  oil_temperature: number; // Celsius
+  input_voltage: number; // kV
+  output_voltage: number; // kV
+  status: "Healthy" | "Warning" | "Critical";
+}
