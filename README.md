@@ -26,11 +26,11 @@ ASH-Grid AI introduces a proactive, self-healing approach for future-ready urban
 
 ASH-Grid AI acts as an **AI Copilot for Grid Operators**, combining:
 
-✅ Real-time transformer health intelligence  
-✅ Load forecasting and anomaly detection  
-✅ Self-healing simulation and optimization actions  
-✅ Infrastructure-aware resilience prioritization  
-✅ Grid-wide stability scoring for smart cities  
+>Real-time transformer health intelligence  
+>Load forecasting and anomaly detection  
+>Self-healing simulation and optimization actions  
+> Infrastructure-aware resilience prioritization  
+>Grid-wide stability scoring for smart cities  
 
 ---
 
