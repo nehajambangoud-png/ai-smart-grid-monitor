@@ -1,143 +1,152 @@
-#  ASH-Grid AI  
-## Autonomous Self-Healing Transformer Network for Smart Grid Resilience 
+AI Smart Grid Monitor
+AI-Driven Predictive Transformer Monitoring System for Smart Cities
+Overview
 
-ASH-Grid AI is a next-generation **AI-powered Smart Grid Intelligence Platform** designed to move beyond monitoring and prediction — towards **autonomous prevention, adaptation, and self-optimization** of transformer networks in real time.
+AI Smart Grid Monitor is a predictive transformer health monitoring system designed for urban power distribution networks.
 
-Unlike traditional systems that only raise alerts after damage begins, ASH-Grid continuously evaluates transformer stress, simulates corrective strategies, and recommends optimal self-healing interventions *before failure occurs*.
+Instead of reacting to transformer failures after they occur, this system analyzes multiple electrical parameters simultaneously and estimates risk levels in advance. It enables preventive maintenance, improves grid reliability, and supports smart city infrastructure management.
 
----
+This prototype is built using realistic distribution-level voltage standards (33kV / 11kV / 433V) modeled for the Hubli–Dharwad region.
 
-##  Problem Statement
+ Problem Statement
 
-Modern power grids face increasing stress due to:
+Distribution transformers are critical infrastructure assets. However, many are monitored through:
 
-- Transformer aging and thermal overload  
-- Rapid urban demand growth  
-- Climate-driven peak loads (heatwaves, seasonal surges)  
-- Unpredictable fault propagation  
-- Critical infrastructure dependency (hospitals, water systems)
+Periodic manual inspections
 
-Current monitoring systems are reactive.  
-ASH-Grid AI introduces a proactive, self-healing approach for future-ready urban grids.
+Basic threshold-based alerts
 
----
+Reactive maintenance practices
 
-##  Solution Overview
+By the time a fault is detected, outages and equipment damage may have already occurred.
 
-ASH-Grid AI acts as an **AI Copilot for Grid Operators**, combining:
+There is a need for a predictive, intelligent monitoring system that can identify degradation patterns before critical failure.
 
-1. Real-time transformer health intelligence  
-2. Load forecasting and anomaly detection  
-3. Self-healing simulation and optimization actions  
-4. Infrastructure-aware resilience prioritization  
-5. Grid-wide stability scoring for smart cities  
+ Proposed Solution
 
----
+This system introduces an AI-based predictive monitoring layer that evaluates:
 
-##  Key Features
+Load behavior
 
-###  Transformer Stress DNA Profiling  
-Each transformer is modeled with a unique **Stress DNA Profile**, calculated from:
+Voltage deviation
 
-- Thermal stress accumulation  
-- Electrical fatigue index  
-- Load imbalance score  
-- Environmental stress factor  
-- Mechanical vibration fatigue  
+Oil aging and temperature
 
----
+Impedance and electrical constraints
 
-###  Autonomous Self-Healing Recommendation Engine  
-ASH-Grid does not just alert — it simulates corrective outcomes:
+Inspection history
 
-- Load reduction strategies  
-- Power factor correction  
-- Cooling improvement actions  
-- Redistribution to nearby transformers  
+The system generates:
 
-Example Output:
+Dynamic risk scores
 
-> “Optimal corrective action with 92% confidence to extend transformer life by 2.3 years.”
+Early warning alerts
 
----
+Preventive maintenance recommendations
 
-###  Community-Aware Grid Protection  
-The system prioritizes power reliability for critical zones:
+Inspection logging and scheduling
 
-- Hospitals  
-- Schools  
-- Water supply networks  
+It shifts transformer management from reactive repair to predictive prevention.
 
-This enables humanitarian, infrastructure-first AI decision making.
+ Key Features
 
----
+Real-time transformer health dashboard
 
-###  Climate & Seasonal Overload Forecasting  
-ASH-Grid predicts overload risks during:
+Hubli–Dharwad region-based transformer map
 
-- Heatwaves  
-- Festival demand spikes  
-- Seasonal consumption surges  
+AI-based multi-parameter risk scoring
 
----
+Transformer oil aging analysis graph
 
-###  Transformer Life Extension + Cost Savings  
-The platform estimates:
+Electrical core specifications display
 
-- Current expected transformer life  
-- Extended life after optimization  
-- Financial savings for utilities and governments  
+Role-based access (Engineer & Citizen view)
 
----
+Maintenance scheduling module
 
-###  Smart City Grid Resilience Score  
-ASH-Grid provides a city-level rating based on:
+Inspection logging system
 
-- Infrastructure stability  
-- Risk distribution balance  
-- Redundancy strength  
-- Maintenance efficiency  
+Automated PDF diagnostic report generation
 
-Example:
+ How It Is Different
 
-> Smart City Resilience Rating: **8.7 / 10**
+Traditional systems monitor isolated parameters and trigger alerts only after thresholds are crossed.
 
----
+AI Smart Grid Monitor:
 
-###  AI Decision Confidence & Uncertainty Indicators  
-Every prediction includes:
+Analyzes multiple variables simultaneously
 
-- Confidence percentage  
-- Data quality score  
-- Risk uncertainty level  
+Identifies abnormal parameter combinations
 
-Making the platform research-grade and trustworthy.
+Predicts risk probability
 
----
+Supports public transparency through citizen dashboard
 
-##  Application Preview
+It integrates engineering intelligence with smart city infrastructure visibility.
 
-### Control Center Dashboard  
-Real-time monitoring of transformer nodes, alerts, and optimization status.
+ System Architecture
 
-### Geospatial Grid Network View  
-Interactive visualization of substations and transformer risk distribution.
+Frontend: Interactive dashboard and visualization interface
 
-### Load Forecasting & Prediction Analytics  
-AI-based demand trend forecasting with confidence intervals.
+Logic Layer: Parameter processing & risk computation
 
-### Transformer Health Diagnostics  
-Stress DNA profile and failure prevention insights for each transformer.
+AI Module: Predictive multi-variable analysis
 
+Data Layer: Simulated regional transformer dataset
 
----
+Report Engine: Structured PDF generation
 
-##  Technology Stack
+The architecture is modular and scalable for integration with IoT-enabled transformer systems.
 
-- **React + TypeScript** — Frontend dashboard system  
-- **Vite Framework** — High-performance build setup  
-- **Gemini AI / AI Studio Integration** — Intelligent recommendation engine  
-- **Data Visualization** — Graphs, stress trends, load prediction analytics  
-- **Smart Grid Simulation Dataset** — Transformer and demand behavior modeling  
+ Technologies Used
 
----
+Frontend: HTML, CSS, JavaScript
+
+Logic & Processing: Custom predictive risk algorithm
+
+Data Visualization: Interactive performance graphs
+
+Version Control: GitHub
+
+Dataset: Realistic distribution transformer simulation (Hubli–Dharwad)
+
+ Electrical Modeling Standards
+
+All transformers in the prototype follow realistic Indian distribution voltage levels:
+
+33 kV / 11 kV
+
+11 kV / 433 V
+
+11 kV / 230 V
+
+Impedance and efficiency values are modeled within practical engineering ranges.
+
+ Future Scope
+
+Integration with real IoT sensor data
+
+District-level transformer health control centers
+
+State-wide AI analytics deployment
+
+Integration with smart city command systems
+
+ Prototype Assets
+
+GitHub Repository:
+https://github.com/nehajambangoud-png/ai-smart-grid-monitor
+
+Demo Video: https://youtu.be/RLTeCyX2nNs?si=7GJDbm4B6sju7SN2
+
+ Impact
+
+This solution aims to:
+
+Reduce unexpected transformer failures
+
+Improve infrastructure safety
+
+Lower emergency maintenance costs
+
+Support sustainable urban energy systems
